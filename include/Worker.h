@@ -13,7 +13,7 @@ class Worker : public Interface
          int hp,energy;
 
     public:
-        Worker(char*name="worker", int hp=100, int energy=100, char* key_init=NULL);
+        Worker(char*name="worker", int hp=100, int energy=100, char* key_im="worker_im", char* key_so="worker_so");
         virtual ~Worker();
 
 };

@@ -1,6 +1,6 @@
 #include "Worker.h"
 #include <iostream>
-Worker::Worker(char* name_init, int hp_init, int energy_init, char* key_init):Interface(key_init)
+Worker::Worker(char* name_init, int hp_init, int energy_init, char* key_im,char* key_so):Interface(key_im,key_so)
 {
     name = name_init;
     hp = hp_init;

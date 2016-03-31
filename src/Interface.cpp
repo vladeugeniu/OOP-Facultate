@@ -1,13 +1,17 @@
 #include "Interface.h"
 #include <iostream>
 #include <cstring>
-Interface::Interface(char* key_init)
+Interface::Interface(char* key_im, char* key_so)
 {
-    key = new char[strlen(key_init)];
-    strcpy(key, key_init);
+    im_key = new char[strlen(key_im)];
+    strcpy(im_key, key_im);
+    so_key = new char[strlen(key_so)];
+    strcpy(so_key, key_so);
+
 }
 
 Interface::~Interface()
 {
-    delete key;
+    delete im_key;
+    delete so_key;
 }

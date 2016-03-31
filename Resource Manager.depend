@@ -14,48 +14,52 @@
 	<Worker.h>
 	<iostream>
 
-1459460739 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\worker.h
+1459462299 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\worker.h
 	<Interface.h>
 	<iostream>
 
-1459372648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\interface.h
+1459462331 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\interface.h
 	<iostream>
 
-1459372152 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\engineer.cpp
+1459462299 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\engineer.cpp
 	"Engineer.h"
+	"Image.h"
+	"ResourceManager.h"
+	"Sound.h"
+	"Resources.h"
 
-1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\interface.cpp
+1459461901 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\interface.cpp
 	"Interface.h"
 	<iostream>
 	<cstring>
 
-1459368685 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\machine.cpp
+1459462086 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\machine.cpp
 	"Machine.h"
 	<iostream>
 
-1459460741 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\machine.h
+1459462376 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\machine.h
 	<Interface.h>
 	<iostream>
 
-1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\soldier.cpp
+1459462299 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\soldier.cpp
 	"Soldier.h"
 
 1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\soldier.h
 	<Worker.h>
 
-1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\submarine.cpp
+1459462086 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\submarine.cpp
 	"Submarine.h"
 
 1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\submarine.h
 	<Machine.h>
 
-1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\tank.cpp
+1459462087 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\tank.cpp
 	"Tank.h"
 
 1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\tank.h
 	<Machine.h>
 
-1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\worker.cpp
+1459462342 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\worker.cpp
 	"Worker.h"
 	<iostream>
 
