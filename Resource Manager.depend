@@ -69,3 +69,88 @@
 	<cstring>
 	<fstream>
 
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\engineer.cpp
+	"Engineer.h"
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\engineer.h
+	<Worker.h>
+	<iostream>
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\worker.h
+	<Interface.h>
+	<iostream>
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\interface.h
+	<iostream>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\interface.cpp
+	"Interface.h"
+	<iostream>
+	<cstring>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\machine.cpp
+	"Machine.h"
+	<iostream>
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\machine.h
+	<Interface.h>
+	<iostream>
+
+1459426460 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\resources.cpp
+	"Resources.h"
+	<iostream>
+	<stdlib.h>
+
+1459426418 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\resources.h
+	<stdlib.h>
+	<fstream>
+	<iostream>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\soldier.cpp
+	"Soldier.h"
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\soldier.h
+	<Worker.h>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\submarine.cpp
+	"Submarine.h"
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\submarine.h
+	<Machine.h>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\tank.cpp
+	"Tank.h"
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\tank.h
+	<Machine.h>
+
+1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\worker.cpp
+	"Worker.h"
+	<iostream>
+
+1459426519 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\main.cpp
+	<iostream>
+	"Engineer.h"
+	"Image.h"
+	"Sound.h"
+
+1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\image.h
+	<Resources.h>
+
+1459427656 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\image.cpp
+	"Image.h"
+	<cstring>
+	<fstream>
+
+1459425422 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\sound.h
+	<Resources.h>
+
+1459426378 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\resource_manager.cpp
+	"Resource_Manager.h"
+
+1459426904 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\resource_manager.h
+
+1459426519 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\sound.cpp
+	"Sound.h"
+	<cstring>
+
