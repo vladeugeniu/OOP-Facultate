@@ -1,12 +1,14 @@
 #include "Resources.h"
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 Resources::Resources(char* file_path)
 {
-    f.open(file_path, ifstream::in);
+    f = fopen(file_path,"rb");
 }
 
 Resources::~Resources()
 {
-    f.close();
+    fclose(f);
 }

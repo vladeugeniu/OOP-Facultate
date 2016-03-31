@@ -2,11 +2,12 @@
 #define RESOURCES_H
 #include <fstream>
 #include <iostream>
+#include <stdlib.h>
 using namespace std;
 class Resources
 {
     protected:
-    ifstream f;
+    FILE* f;
 
     public:
         Resources(char*);

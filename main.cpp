@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Image s("poza_test2.png");
+    Sound s("test.mp3");
     s.print();
 
     return 0;

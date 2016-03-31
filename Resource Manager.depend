@@ -1,8 +1,9 @@
 # depslib dependency file v1.0
-1459422498 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\main.cpp
+1459439516 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\main.cpp
 	<iostream>
 	"Engineer.h"
 	"Image.h"
+	"Sound.h"
 
 1459372108 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\engineer.h
 	<Worker.h>
@@ -53,21 +54,22 @@
 	"Worker.h"
 	<iostream>
 
-1459421428 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resources.cpp
+1459439319 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resources.cpp
 	"Resources.h"
 	<iostream>
+	<cstdlib>
 
-1459421334 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resources.h
+1459439204 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resources.h
 	<fstream>
 	<iostream>
+	<stdlib.h>
 
 1459422062 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\image.h
 	<Resources.h>
 
-1459422617 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\image.cpp
+1459439509 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\image.cpp
 	"Image.h"
 	<cstring>
-	<fstream>
 
 1459423326 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\engineer.cpp
 	"Engineer.h"
@@ -151,6 +153,13 @@
 1459426904 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\resource_manager.h
 
 1459426519 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\sound.cpp
+	"Sound.h"
+	<cstring>
+
+1459439575 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\sound.h
+	<Resources.h>
+
+1459439603 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\sound.cpp
 	"Sound.h"
 	<cstring>
 
