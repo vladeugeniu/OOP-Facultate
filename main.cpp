@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Image s("pza_test1.png");
+    Image s("poza_test2.png");
     s.print();
 
     return 0;

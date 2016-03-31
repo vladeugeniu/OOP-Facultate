@@ -96,7 +96,7 @@
 	<Interface.h>
 	<iostream>
 
-1459426460 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\resources.cpp
+1459429478 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\resources.cpp
 	"Resources.h"
 	<iostream>
 	<stdlib.h>
@@ -128,7 +128,7 @@
 	"Worker.h"
 	<iostream>
 
-1459426519 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\main.cpp
+1459429223 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\main.cpp
 	<iostream>
 	"Engineer.h"
 	"Image.h"
@@ -137,7 +137,7 @@
 1459423326 d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\include\image.h
 	<Resources.h>
 
-1459427656 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\image.cpp
+1459429367 source:d:\users\student\desktop\oop-facultate-resource_manager\oop-facultate-resource_manager\src\image.cpp
 	"Image.h"
 	<cstring>
 	<fstream>
