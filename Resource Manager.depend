@@ -1,0 +1,71 @@
+# depslib dependency file v1.0
+1459422498 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\main.cpp
+	<iostream>
+	"Engineer.h"
+	"Image.h"
+
+1459372108 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\engineer.h
+	<Worker.h>
+	<iostream>
+
+1459372663 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\worker.h
+	<Interface.h>
+	<iostream>
+
+1459372648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\interface.h
+	<iostream>
+
+1459372152 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\engineer.cpp
+	"Engineer.h"
+
+1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\interface.cpp
+	"Interface.h"
+	<iostream>
+	<cstring>
+
+1459368685 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\machine.cpp
+	"Machine.h"
+	<iostream>
+
+1459372648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\machine.h
+	<Interface.h>
+	<iostream>
+
+1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\soldier.cpp
+	"Soldier.h"
+
+1459372838 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\soldier.h
+	<Worker.h>
+
+1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\submarine.cpp
+	"Submarine.h"
+
+1459372648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\submarine.h
+	<Machine.h>
+
+1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\tank.cpp
+	"Tank.h"
+
+1459372648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\tank.h
+	<Machine.h>
+
+1459372648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\worker.cpp
+	"Worker.h"
+	<iostream>
+
+1459421428 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resources.cpp
+	"Resources.h"
+	<iostream>
+
+1459421334 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resources.h
+	<fstream>
+	<iostream>
+
+1459422062 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\image.h
+	<Resources.h>
+
+1459422617 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\image.cpp
+	"Image.h"
+	<cstring>
+	<fstream>
+
