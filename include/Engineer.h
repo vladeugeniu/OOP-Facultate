@@ -7,7 +7,7 @@ using namespace std;
 
 class Engineer : public Worker
 {
-    private:
+        static int nr_engineers;
         int intellect;
     public:
         Engineer(char* name_init="engi", int hp_init=100, int energy_init=100, int intellect_init=100);

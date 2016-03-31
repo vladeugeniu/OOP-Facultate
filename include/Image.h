@@ -11,6 +11,7 @@ class Image : public Resources
         void print();
     private:
         char* get_first_line();
+
 };
 
 #endif // IMAGE_H

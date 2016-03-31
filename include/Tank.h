@@ -6,6 +6,7 @@
 
 class Tank : public Machine
 {
+        static int nr_tanks;
         int max_range;
 
     public:

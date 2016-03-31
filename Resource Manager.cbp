@@ -38,7 +38,7 @@
 		<Unit filename="include/Image.h" />
 		<Unit filename="include/Interface.h" />
 		<Unit filename="include/Machine.h" />
-		<Unit filename="include/Resource_Manager.h" />
+		<Unit filename="include/ResourceManager.h" />
 		<Unit filename="include/Resources.h" />
 		<Unit filename="include/Soldier.h" />
 		<Unit filename="include/Sound.h" />
@@ -50,7 +50,7 @@
 		<Unit filename="src/Image.cpp" />
 		<Unit filename="src/Interface.cpp" />
 		<Unit filename="src/Machine.cpp" />
-		<Unit filename="src/Resource_Manager.cpp" />
+		<Unit filename="src/ResourceManager.cpp" />
 		<Unit filename="src/Resources.cpp" />
 		<Unit filename="src/Soldier.cpp" />
 		<Unit filename="src/Sound.cpp" />

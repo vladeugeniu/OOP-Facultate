@@ -6,6 +6,7 @@
 
 class Submarine : public Machine
 {
+        static int nr_submarines;
         int max_depth;
         int time_limit;
     public:

@@ -7,6 +7,7 @@
 class Machine : public Interface
 {
     protected:
+        static int nr_machines;
         int engine_power;
         int max_speed;
         int armor;
@@ -15,5 +16,4 @@ class Machine : public Interface
         Machine(int engine_power_init=100, int max_speed_init=100, int armor_init=100, int atack_power_init=100, char* key_init=NULL);
 
 };
-
 #endif // MACHINE_H

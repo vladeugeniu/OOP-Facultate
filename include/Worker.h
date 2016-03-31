@@ -8,6 +8,7 @@ class Worker : public Interface
 {
 
     protected:
+         static int nr_workers;
          char *name;
          int hp,energy;
 

@@ -10,6 +10,7 @@ class Resources
     FILE* f;
 
     public:
+        Resources(){};
         Resources(char*);
         virtual ~Resources();
 };

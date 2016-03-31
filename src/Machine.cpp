@@ -6,6 +6,7 @@ Machine::Machine(int engine_power_init, int max_speed_init, int armor_init, int 
     max_speed = max_speed_init;
     armor = armor_init;
     atack_power = atack_power_init;
+    nr_machines++;
 }
 
 
