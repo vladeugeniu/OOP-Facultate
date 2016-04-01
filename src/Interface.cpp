@@ -1,12 +1,8 @@
 #include "Interface.h"
 #include <iostream>
 #include <cstring>
-Interface::Interface(char* key_im, char* key_so)
+Interface::Interface()
 {
-    im_key = new char[strlen(key_im)];
-    strcpy(im_key, key_im);
-    so_key = new char[strlen(key_so)];
-    strcpy(so_key, key_so);
 
 }
 

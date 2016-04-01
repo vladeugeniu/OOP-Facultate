@@ -8,10 +8,13 @@ class Resources
 {
     protected:
     FILE* f;
+    char s[100];
 
     public:
         Resources(){};
         Resources(char*);
+       // Resources(const Resources&);
+        //Resources operator=(const Resources&);
         virtual ~Resources();
 };
 

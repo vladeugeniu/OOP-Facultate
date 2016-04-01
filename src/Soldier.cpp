@@ -1,6 +1,6 @@
 #include "Soldier.h"
 
-Soldier::Soldier(char* name_init, int hp_init, int energy_init, int atackPower_init):Worker(name_init, hp_init, energy_init, "soldier_im","soldier_so")
+Soldier::Soldier(char* name_init, int hp_init, int energy_init, int atackPower_init):Worker(name_init, hp_init, energy_init)
 {
     atackPower = atackPower_init;
     nr_soldiers++;

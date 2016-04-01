@@ -13,9 +13,9 @@ class Worker : public Interface
          int hp,energy;
 
     public:
-        Worker(char*name="worker", int hp=100, int energy=100, char* key_im="worker_im", char* key_so="worker_so");
+        Worker(char*name="worker", int hp=100, int energy=100);
+      //  virtual void print();
         virtual ~Worker();
-
 };
 
 #endif // WORKER_H

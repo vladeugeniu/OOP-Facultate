@@ -16,7 +16,7 @@ class ResourceManager{
      void add_resource (char*,Resources&);
      void remove_resource(char*);
      Resources* get_resource(char*);
-
+    void printManager();
 };
 
 #endif // RESOURCEMANAGER_H

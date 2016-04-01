@@ -6,9 +6,8 @@ Image::Image(char * file_path):Resources(file_path)
 
 char* Image::get_first_line()
 {
-    char *s = new char[1000];
 
-    fread(s,1,10,f);
+    fread(s2,1,10,f);
     return s;
 }
 void Image::print()
@@ -17,3 +16,9 @@ void Image::print()
     cout<< get_first_line() + 7;
 
 }
+/*
+Image::Image(const Image& toCopy)
+{
+    strcpy(s2,toCopy.s2);
+}
+*/

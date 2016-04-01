@@ -20,16 +20,25 @@ int Submarine:: nr_submarines =0;
 
 int main()
 {
+Engineer a;
+
     Image im("poza_test2.png");
 
-    ResourceManager::instance()->add_resource("key1",im);
 
-    Resources *p = ResourceManager::instance()->get_resource("key1");
+    ResourceManager::instance()->add_resource("engineer_im",im);
 
-    Image *q;
+
+    Resources *p = ResourceManager::instance()->get_resource("engineer_im");
+
+    //ResourceManager::instance()->printManager();
+   /* Image *q;
 
     q = dynamic_cast <Image*> (p);
     q->print();
+    */
+
+    //cout<<endl;
+    a.print();
 
 
     return 0;

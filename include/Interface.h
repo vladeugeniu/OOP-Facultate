@@ -5,10 +5,10 @@
 class Interface
 {
     protected:
-        char* im_key;
-        char* so_key;
+        char im_key[20];
+        char so_key[20];
     public:
-        Interface(char* key_im=NULL, char* key_so=NULL);
+        Interface();
         virtual ~Interface();
 };
 

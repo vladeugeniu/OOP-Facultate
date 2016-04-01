@@ -13,7 +13,7 @@ class Machine : public Interface
         int armor;
         int atack_power;
     public:
-        Machine(int engine_power_init=100, int max_speed_init=100, int armor_init=100, int atack_power_init=100, char* key_im="machine_im", char* key_so="machine_so");
-
+        Machine(int engine_power_init=100, int max_speed_init=100, int armor_init=100, int atack_power_init=100);
+        void print();
 };
 #endif // MACHINE_H

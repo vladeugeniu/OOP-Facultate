@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1459460561 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\main.cpp
+1459500767 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\main.cpp
 	<iostream>
 	"Engineer.h"
 	"Image.h"
@@ -14,69 +14,72 @@
 	<Worker.h>
 	<iostream>
 
-1459462299 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\worker.h
+1459463795 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\worker.h
 	<Interface.h>
 	<iostream>
 
-1459462331 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\interface.h
+1459463648 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\interface.h
 	<iostream>
 
-1459462299 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\engineer.cpp
+1459500804 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\engineer.cpp
 	"Engineer.h"
 	"Image.h"
 	"ResourceManager.h"
 	"Sound.h"
 	"Resources.h"
+	"cstring"
 
-1459461901 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\interface.cpp
+1459463648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\interface.cpp
 	"Interface.h"
 	<iostream>
 	<cstring>
 
-1459462086 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\machine.cpp
+1459463735 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\machine.cpp
 	"Machine.h"
 	<iostream>
 
-1459462376 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\machine.h
+1459463659 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\machine.h
 	<Interface.h>
 	<iostream>
 
-1459462299 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\soldier.cpp
+1459463648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\soldier.cpp
 	"Soldier.h"
 
-1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\soldier.h
+1459462517 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\soldier.h
 	<Worker.h>
 
-1459462086 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\submarine.cpp
+1459463648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\submarine.cpp
 	"Submarine.h"
 
-1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\submarine.h
+1459462517 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\submarine.h
 	<Machine.h>
 
-1459462087 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\tank.cpp
+1459463648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\tank.cpp
 	"Tank.h"
 
-1459460899 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\tank.h
+1459462517 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\tank.h
 	<Machine.h>
 
-1459462342 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\worker.cpp
+1459463648 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\worker.cpp
 	"Worker.h"
 	<iostream>
+	<cstring>
 
-1459459792 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resources.cpp
+1459498571 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resources.cpp
 	"Resources.h"
 	<iostream>
 	<cstdlib>
+	<cstring>
 
-1459459792 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resources.h
+1459498571 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resources.h
 	<fstream>
 	<iostream>
 	<stdlib.h>
 
-1459459792 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\image.h
+1459498571 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\image.h
 	<Resources.h>
 
-1459459791 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\image.cpp
+1459498571 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\image.cpp
 	"Image.h"
 	<cstring>
 
@@ -172,10 +175,14 @@
 	"Sound.h"
 	<cstring>
 
-1459460561 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resourcemanager.cpp
+1459500382 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\src\resourcemanager.cpp
 	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+	<iterator>
 
-1459460561 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resourcemanager.h
+1459500352 c:\users\stefan\documents\facultate\oop.git\oop-facultate\include\resourcemanager.h
 	<Resources.h>
 	<map>
 

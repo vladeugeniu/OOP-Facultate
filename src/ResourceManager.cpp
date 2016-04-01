@@ -1,4 +1,8 @@
 #include "ResourceManager.h"
+#include "Resources.h"
+#include "Image.h"
+#include "Sound.h"
+#include <iterator>
 ResourceManager* ResourceManager::s( new ResourceManager );
 
 ResourceManager::ResourceManager(){}
@@ -20,4 +24,14 @@ void ResourceManager::remove_resource(char* key)
 Resources* ResourceManager::get_resource(char* key)
 {
     return rm[key];
+
+}void ResourceManager::printManager()
+{
+    map<char*,Resources*>::iterator i;
+
+    for(i = rm.begin(); i != rm.end(); i++)
+    {
+        Image *p = dynamic_cast <Image*>(i->second);
+        p->print();
+    }
 }
