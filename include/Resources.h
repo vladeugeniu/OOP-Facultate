@@ -16,6 +16,7 @@ class Resources
        // Resources(const Resources&);
         //Resources operator=(const Resources&);
         virtual ~Resources();
+        virtual void print(){};
 };
 
 #endif // RESOURCES_H

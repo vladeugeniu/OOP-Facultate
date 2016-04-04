@@ -18,22 +18,15 @@ void Engineer::print()
 {
 
 
-   //Image im("poza_test2.png");
-
-    //ResourceManager::instance()->add_resource("engineer_im",im);
-
-
-    Resources *p = ResourceManager::instance()->get_resource("engineer_im");
+     Resources *p = ResourceManager::instance()->get_resource("engineer_im");
 
     Image *q;
-
+    Sound *q1;
     q = dynamic_cast <Image*> (p);
     q->print();
-    cout<<name<<endl<<hp<<endl<<energy<<endl<<intellect;
-    q->print();
-    //im->print();
-    //so->print();
-
-//ResourceManager::instance()->printManager();
-
+    cout <<endl;
+    p = ResourceManager::instance()->get_resource("engineer_so");
+    q1 = dynamic_cast <Sound*> (p);
+    q1 -> print();
+    cout<<endl<<name<<endl<<hp<<endl<<energy<<endl<<intellect<<endl;
 }

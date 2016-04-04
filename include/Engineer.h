@@ -12,7 +12,7 @@ class Engineer : public Worker
     public:
         Engineer(char* name_init="engi", int hp_init=100, int energy_init=100, int intellect_init=100);
         void print();
-
+        static int engineer_nr(){return nr_engineers;}
 
 };
 

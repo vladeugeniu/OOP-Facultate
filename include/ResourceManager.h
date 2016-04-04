@@ -8,14 +8,14 @@ using namespace std;
 class ResourceManager{
     private:
         static ResourceManager* s;
-        map <char*,Resources*> rm;
+        map <string,Resources*> rm;
         ResourceManager();
         ~ResourceManager();
     public:
      static ResourceManager* instance(){return s;}
-     void add_resource (char*,Resources&);
-     void remove_resource(char*);
-     Resources* get_resource(char*);
+     void add_resource (string,Resources&);
+     void remove_resource(string);
+     Resources* get_resource(string);
     void printManager();
 };
 

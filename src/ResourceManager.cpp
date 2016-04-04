@@ -11,22 +11,27 @@ ResourceManager::~ResourceManager()
 {
     //dtor
 }
-void ResourceManager::add_resource(char* key,Resources& object)
+void ResourceManager::add_resource(string key, Resources& object)
 {
     rm[key] = &object;
 }
 
-void ResourceManager::remove_resource(char* key)
+void ResourceManager::remove_resource(string key)
 {
     rm.erase(key);
 }
 
-Resources* ResourceManager::get_resource(char* key)
+Resources* ResourceManager::get_resource(string key)
 {
+    cout<<endl<<key;
+    if(rm.find(key) == rm.end()) return NULL;
+    cout<<endl;
+    rm[key] -> print();
     return rm[key];
 
-}void ResourceManager::printManager()
-{
+}
+//void ResourceManager::printManager()
+/*{
     map<char*,Resources*>::iterator i;
 
     for(i = rm.begin(); i != rm.end(); i++)
@@ -35,3 +40,4 @@ Resources* ResourceManager::get_resource(char* key)
         p->print();
     }
 }
+*/
