@@ -9,7 +9,7 @@ class Interface
         char so_key[20];
     public:
         Interface();
-        virtual void print(){std::cout <<"iar sunt special";};
+        virtual void print(){};
         virtual ~Interface();
 };
 

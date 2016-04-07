@@ -25,19 +25,19 @@ void Worker::print()
 {
 
 
-    cout<<"\nAfisare";
-    Resources *p = ResourceManager::instance()->get_resource("worker_im");
-    cout<<"\nafisare1";
+   // cout<<"\nAfisare";
+    Resources *p = ResourceManager::instance()->get_resource(string("worker_im"));
+   // cout<<"\nafisare1";
     if(!p) cout <<"\nNULL";
     Image *q = NULL;
     Sound *q1 = NULL;
-    cout<<"\nafisare1+1/2";
-    if(q = dynamic_cast <Image*> (p))cout<<"\nafisare1.75";
-        else cout<<"\nafisare1.8";
-    cout<<"\nafisare2";
+   // cout<<"\nafisare1+1/2";
+    q=dynamic_cast <Image*> (p);
+    //    else cout<<"\nafisare1.8";
+    //cout<<"\nafisare2";
     q->print();
-    p = ResourceManager::instance()->get_resource("worker_so");
-    q1 = dynamic_cast <Sound*> (p);
+    p = ResourceManager::instance()->get_resource(string("worker_so"));
+    q1=dynamic_cast <Sound*> (p);
     q1 -> print();
     cout<<endl<<name<<endl<<hp<<endl<<energy<<endl;
 }

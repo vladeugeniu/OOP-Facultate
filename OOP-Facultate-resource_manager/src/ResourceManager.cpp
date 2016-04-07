@@ -3,7 +3,7 @@
 #include "Image.h"
 #include "Sound.h"
 #include <iterator>
-ResourceManager* ResourceManager::s( new ResourceManager );
+ResourceManager* ResourceManager::s(new ResourceManager) ;
 
 ResourceManager::ResourceManager(){}
 
@@ -11,9 +11,9 @@ ResourceManager::~ResourceManager()
 {
     //dtor
 }
-void ResourceManager::add_resource(string key, Resources& object)
+void ResourceManager::add_resource(string key, Resources* object)
 {
-    rm[key] = &object;
+    rm[key] = object;
 }
 
 void ResourceManager::remove_resource(string key)
@@ -26,7 +26,10 @@ Resources* ResourceManager::get_resource(string key)
     cout<<endl<<key;
     if(rm.find(key) == rm.end()) return NULL;
     cout<<endl;
-    rm[key] -> print();
+    //cout<<"merge";
+    //if(rm[key]==NULL) cout<<"NU";
+    //else cout<<"DA";
+    //rm[key]->print();
     return rm[key];
 
 }
