@@ -14,7 +14,6 @@ class ResourceManager{
     public:
      static ResourceManager* instance(){return s;}
      void add_resource (string,Resources*);
-     void remove_resource(string);
      Resources* get_resource(string);
     void printManager();
 };

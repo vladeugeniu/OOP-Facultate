@@ -8,8 +8,7 @@ Tank::Tank( int max_range_init, int engine_power_init, int max_speed_init, int a
             Machine(engine_power_init ,max_speed_init ,armor_init ,atack_power_init)
 {
     max_range = max_range_init;
-    nr_machines--;
-    nr_tanks++;
+
 }
 void Tank::print()
 {

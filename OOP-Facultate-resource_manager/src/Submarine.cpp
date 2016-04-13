@@ -9,8 +9,7 @@ Submarine::Submarine( int max_depth_init, int time_limit_init, int engine_power_
 {
     max_depth = max_depth_init;
     time_limit = time_limit_init;
-    nr_machines--;
-    nr_submarines++;
+
 }
 
 void Submarine::print()

@@ -453,3 +453,126 @@
 	"Image.h"
 	"Sound.h"
 
+1460393508 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\engineer.cpp
+	"Engineer.h"
+	"Image.h"
+	"ResourceManager.h"
+	"Sound.h"
+	"Resources.h"
+	"cstring"
+
+1460393673 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\engineer.h
+	<Worker.h>
+	<iostream>
+
+1460393668 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\worker.h
+	<Interface.h>
+	<iostream>
+
+1460031292 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\interface.h
+	<iostream>
+
+1459953913 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\image.h
+	<Resources.h>
+
+1459953924 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\resources.h
+	<fstream>
+	<iostream>
+	<stdlib.h>
+
+1460393496 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\resourcemanager.h
+	<Resources.h>
+	<map>
+
+1459953919 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\sound.h
+	<Resources.h>
+
+1459954207 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\image.cpp
+	"Image.h"
+	<cstring>
+
+1459721758 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\interface.cpp
+	"Interface.h"
+	<iostream>
+	<cstring>
+
+1460393496 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\resourcemanager.cpp
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+	<iterator>
+
+1459721758 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\resources.cpp
+	"Resources.h"
+	<iostream>
+	<cstdlib>
+	<cstring>
+
+1460393513 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\soldier.cpp
+	"Soldier.h"
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+
+1460393693 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\soldier.h
+	<Worker.h>
+
+1459954171 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\sound.cpp
+	"Sound.h"
+	<cstring>
+
+1460393517 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\submarine.cpp
+	"Submarine.h"
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+
+1460393688 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\submarine.h
+	<Machine.h>
+
+1460393678 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\machine.h
+	<Interface.h>
+	<iostream>
+
+1460393522 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\tank.cpp
+	"Tank.h"
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+
+1460393682 c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\include\tank.h
+	<Machine.h>
+
+1460393526 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\worker.cpp
+	"Worker.h"
+	<iostream>
+	<cstring>
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+
+1460393496 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\main.cpp
+	<iostream>
+	"Engineer.h"
+	"Image.h"
+	"Sound.h"
+	"Machine.h"
+	"Tank.h"
+	"Submarine.h"
+	"Soldier.h"
+	"ResourceManager.h"
+
+1460393704 source:c:\users\stefan\documents\facultate\oop.git\oop-facultate\oop-facultate-resource_manager\src\machine.cpp
+	"Machine.h"
+	<iostream>
+	<cstring>
+	"ResourceManager.h"
+	"Resources.h"
+	"Image.h"
+	"Sound.h"
+

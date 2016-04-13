@@ -11,7 +11,7 @@ Worker::Worker(char name_init[100], int hp_init, int energy_init)
     strcpy(name,name_init);
     hp = hp_init;
     energy = energy_init;
-    nr_workers++;
+
     strcpy(im_key,"worker_im");
     strcpy(so_key,"worker_so");
 }

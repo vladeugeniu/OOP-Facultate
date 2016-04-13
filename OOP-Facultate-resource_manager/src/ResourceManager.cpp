@@ -9,16 +9,19 @@ ResourceManager::ResourceManager(){}
 
 ResourceManager::~ResourceManager()
 {
-    //dtor
+    map<string,Resources*>::iterator i;
+
+    for(i = rm.begin(); i != rm.end(); i++)
+    {
+        delete i->second;
+    }
 }
 void ResourceManager::add_resource(string key, Resources* object)
 {
-    rm[key] = object;
-}
+    if ( rm.count(key) == 0 )
 
-void ResourceManager::remove_resource(string key)
-{
-    rm.erase(key);
+        rm[key] = object;
+
 }
 
 Resources* ResourceManager::get_resource(string key)
