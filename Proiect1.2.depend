@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1458217483 source:c:\users\stefan\documents\facultate\oop\proiect1.2\main.cpp
+	<iostream>
+	<Fractie.h>
+
+1457192753 source:c:\users\stefan\documents\facultate\oop\proiect1.2\src\iterator.cpp
+	"Iterator.h"
+	<iostream>
+	<Node.h>
+
+1457190765 c:\users\stefan\documents\facultate\oop\proiect1.2\include\iterator.h
+	<Node.h>
+
+1457275680 c:\users\stefan\documents\facultate\oop\proiect1.2\include\lista.h
+	<Iterator.h>
+
+1457190478 c:\users\stefan\documents\facultate\oop\proiect1.2\include\node.h
+
+1457275692 source:c:\users\stefan\documents\facultate\oop\proiect1.2\src\lista.cpp
+	"Lista.h"
+	<iostream>
+	<Iterator.h>
+
+1457185288 source:c:\users\stefan\documents\facultate\oop\proiect1.2\src\node.cpp
+	"Node.h"
+	<iostream>
+
+1457962072 source:c:\users\stefan\documents\facultate\oop\proiect1.2\src\numar.cpp
+	"Numar.h"
+	<string.h>
+	<Lista.h>
+	<iostream>
+	<cctype>
+	<cstdlib>
+
+1457961055 c:\users\stefan\documents\facultate\oop\proiect1.2\include\numar.h
+	<Lista.h>
+
+1458218109 c:\users\stefan\documents\facultate\oop\proiect1.2\include\fractie.h
+	<Numar.h>
+
+1458222735 source:c:\users\stefan\documents\facultate\oop\proiect1.2\src\fractie.cpp
+	"Fractie.h"
+	<Numar.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1458210282 source:c:\users\vlad stefan\desktop\proiect1.2\main.cpp
+	<iostream>
+	<Fractie.h>
+
+1458210908 c:\users\vlad stefan\desktop\proiect1.2\include\fractie.h
+	<Numar.h>
+
+1457953854 c:\users\vlad stefan\desktop\proiect1.2\include\numar.h
+	<Lista.h>
+
+1457268480 c:\users\vlad stefan\desktop\proiect1.2\include\lista.h
+	<Iterator.h>
+
+1457183564 c:\users\vlad stefan\desktop\proiect1.2\include\iterator.h
+	<Node.h>
+
+1457183278 c:\users\vlad stefan\desktop\proiect1.2\include\node.h
+
+1458215534 source:c:\users\vlad stefan\desktop\proiect1.2\src\fractie.cpp
+	"Fractie.h"
+	<Numar.h>
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1457185552 source:c:\users\vlad stefan\desktop\proiect1.2\src\iterator.cpp
+	"Iterator.h"
+	<iostream>
+	<Node.h>
+
+1457268492 source:c:\users\vlad stefan\desktop\proiect1.2\src\lista.cpp
+	"Lista.h"
+	<iostream>
+	<Iterator.h>
+
+1457178088 source:c:\users\vlad stefan\desktop\proiect1.2\src\node.cpp
+	"Node.h"
+	<iostream>
+
+1457954872 source:c:\users\vlad stefan\desktop\proiect1.2\src\numar.cpp
+	"Numar.h"
+	<string.h>
+	<Lista.h>
+	<iostream>
+	<cctype>
+	<cstdlib>
+
